@@ -8,24 +8,16 @@
 </head>
 <body>
   <script>
+
+  let age = prompt('나이를 입력해주세요')
+  alert(`당신의 나이가 ${age} 입니다`)
+
+
+  let name = prompt('what is your name')
+  alert(`your name is ${name}`)
   
-  
-function showOk(){
-alert('동의하셧습니다.')}
-
-function showcancel(){
-  alert('취소 누르셨습니다.')
-}
-
-    function ask (question,yes,no){
-  if(confirm(question)) yes()
-  else no();
-}
-
-
-ask('동의하십니까', showOk,showcancel)
+  document.body.innerText = `${name}`
 
   </script>
-  
 </body>
 </html>

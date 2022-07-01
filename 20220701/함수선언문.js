@@ -19,3 +19,21 @@ if(age>18){
   }
 
 welcome();
+
+
+function sum(a,b){
+  return a + b;
+}
+
+let sum = function(a,b){
+  return a + b;
+
+}
+
+
+nice('john')
+
+function nice(name){
+  alert(`hello ${name}`)
+}
+
